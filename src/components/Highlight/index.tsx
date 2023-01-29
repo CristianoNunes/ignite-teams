@@ -5,7 +5,7 @@ type HightlightProps = {
   subtitle: string;
 };
 
-export function Hightlight({ title, subtitle }: HightlightProps) {
+export function Highlight({ title, subtitle }: HightlightProps) {
   return (
     <Container>
       <Title>{title}</Title>

@@ -1,7 +1,7 @@
 import { Button } from "@components/Button";
 import { GroupCard } from "@components/GroupCard";
 import { Header } from "@components/Header";
-import { Hightlight } from "@components/Highlight";
+import { Highlight } from "@components/Highlight";
 import { ListEmpty } from "@components/ListEmpty";
 import { useState } from "react";
 import { FlatList } from "react-native";
@@ -12,7 +12,7 @@ export function Groups() {
   return (
     <Container>
       <Header />
-      <Hightlight title="Turmas" subtitle="jogue com sua turma" />
+      <Highlight title="Turmas" subtitle="jogue com sua turma" />
       <FlatList
         data={groups}
         keyExtractor={(item) => item}
